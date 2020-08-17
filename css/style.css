@@ -12,7 +12,7 @@ html {
 /*header part start*/
 
 .header-part {
-    background-image: url(img/top-banner.png);
+    background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,28 +26,82 @@ html {
 }
 
 .my-content h1 {
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
-}
-
-.main-img img {
-    width: 400px;
-    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 60px;
+    letter-spacing: 2px;
 }
 
 .my-content h2 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
     letter-spacing: 3px;
 }
 
+.my-content h4 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
 .my-content p {
-    width: 80%;
+    width: 88%;
     text-align: justify;
     line-height: 28px;
     font-weight: normal;
+    color: #636e72;
+}
+
+.main-img img {
+    width: 800px;
+    padding-top: 35px;
+}
+
+.btn-custom {
+    padding: 6px 20px;
+    background-color: #FB6658;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btm-custom:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #FB6658;
+    background-color: #ffffff;
 }
 
 
 /*header part end*/
+
+
+/*middle part start*/
+.middle-part{
+    padding-top:70px;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image-area img{
+    width:350px;
+}
+.btn-custom-2 {
+    padding: 6px 20px;
+    background-color: #FB6658;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btm-custom-2:hover{
+    background-color: transparent;
+    border: 1px solid #FB6658;
+    color: #FB6658;
+    background-color: #ffffff;
+}
+
+/*middle part end*/

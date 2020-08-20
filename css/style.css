@@ -22,31 +22,32 @@ html {
 }
 
 .my-content {
-    padding-top: 30PX;
+    padding-top: 28PX;
 }
 
 .my-content h1 {
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: 2px;
 }
 
 .my-content h2 {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 3px;
+    font-size: 35px;
 }
 
 .my-content h4 {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.5px;
 }
 
 .my-content p {
-    width: 88%;
+    width: 92%;
     text-align: justify;
     line-height: 28px;
     font-weight: normal;
@@ -55,7 +56,7 @@ html {
 
 .main-img img {
     width: 800px;
-    padding-top: 35px;
+    padding-top: 53px;
 }
 
 .btn-custom {
@@ -67,9 +68,9 @@ html {
     transition: 0.5s all ease;
 }
 
-.btm-custom:hover{
+.btn-custom:hover {
     background-color: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #FB6658;
     color: #FB6658;
     background-color: #ffffff;
 }
@@ -79,15 +80,19 @@ html {
 
 
 /*middle part start*/
-.middle-part{
-    padding-top:70px;
+
+.middle-part {
+    padding-top: 70px;
     background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 20px;
 }
-.image-area img{
-    width:350px;
+
+.image-area img {
+    width: 350px;
 }
+
 .btn-custom-2 {
     padding: 6px 20px;
     background-color: #FB6658;
@@ -95,13 +100,131 @@ html {
     color: #ffffff;
     text-transform: uppercase;
     transition: 0.5s all ease;
+    margin-top: 10px;
 }
 
-.btm-custom-2:hover{
+.btn-custom-2:hover {
     background-color: transparent;
     border: 1px solid #FB6658;
     color: #FB6658;
     background-color: #ffffff;
 }
 
+.middle-content-desite p {
+    width: 90%;
+    text-align: justify;
+    color: #636e72;
+}
+
+.middle-content-desite h2 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 8px;
+}
+
+.middle-content-desite h4 {
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+
 /*middle part end*/
+
+
+/*experience part start*/
+
+.experience {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 80px;
+    background-size: 80px;
+}
+
+.experience h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.left-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.left-part h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.left-part h3 {
+    font-size: 14px;
+    color: #ffa500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.left-part p {
+    width: 90%;
+    text-align: justify;
+    color: #353636;
+}
+
+.right-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+}
+
+.right-part h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.right-part h3 {
+    font-size: 14px;
+    color: #ffa500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.right-part p {
+    width: 90%;
+    text-align: justify;
+    color: #353636;
+}
+
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#right-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(154, 143, 250), rgb(79, 43, 179));
+    border-image-slice: 1;
+}
+
+
+/*experience part end*/
+
+
+/*footer area start*/
+
+.footer h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.footer span {
+    color: #FB6658;
+}
+
+
+/*footer area end*/

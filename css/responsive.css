@@ -1,0 +1,340 @@
+        /* Extra small devices (portrait phones, less than 576px)*/
+
+        @media (max-width: 575.98px) {
+
+            /*header area start*/
+            .header-part {
+                background-size: 800px;
+            }
+
+            .my-content {
+                padding-top: 40PX;
+            }
+
+            .my-content h1 {
+                font-size: 45px;
+                margin-bottom: 2px;
+                text-align: center;
+            }
+
+            .my-content h2 {
+                font-size: 25px;
+                margin-bottom: 2px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .my-content h4 {
+                font-weight: normal;
+                font-size: 23px;
+                margin-bottom: 2px;
+                text-align: center;
+            }
+
+            .my-content p {
+                width: 95%;
+                font-size: 14px;
+                text-align: center;
+                padding-left: 20px;
+            }
+
+            .btn-custom {
+                padding: 6px 150px;
+                margin-left: 80px;
+                margin-top: 10px;
+
+
+            }
+
+            .main-img img {
+                width: 500px;
+                padding: 60px 60px 50px 50px;
+            }
+
+            /*header area end*/
+
+            /*middle area start*/
+            .middle-part {
+                padding-top: 50px;
+            }
+
+            .image-area img {
+                width: 300px;
+                margin-left: 30px;
+            }
+
+            .middle-content-desite {
+                margin-top: 25px;
+                margin-left: 40px;
+            }
+
+            .middle-content-desite h2 {
+                font-size: 35px;
+                padding-bottom: 3px;
+            }
+
+            .middle-content-desite h4 {
+                font-size: 20px;
+                padding-bottom: 3px;
+            }
+
+            .middle-part {
+                background-size: 80px;
+            }
+
+            .middle-part p {
+                font-size: 15px;
+            }
+
+            /*experience area start*/
+            .left-part {
+                margin-bottom: 35px;
+            }
+
+            .experience {
+
+                padding: 60px 80px 40px 80px;
+                background-size: 70px;
+            }
+
+            .title h2 {
+                text-align: center;
+            }
+
+            .experience p {
+                font-size: 15px;
+            }
+        }
+
+        /*experiment area end*/
+
+
+        /* Small devices (landscape phones, 576px and up)*/
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .my-content {
+                padding-top: 43PX;
+                padding-left: 90px;
+            }
+
+            .my-content h1 {
+                font-size: 48px;
+                margin-bottom: 4px;
+            }
+
+            .my-content h2 {
+                font-size: 29px;
+            }
+
+            .my-content h4 {
+                font-weight: normal;
+                font-size: 22px;
+            }
+
+            .btn-custom {
+                margin-top: 10px;
+            }
+
+            .main-img img {
+                width: 500px;
+                padding: 60px 60px 50px 50px;
+            }
+
+            /*middle area start*/
+            .image-area img {
+                width: 300px;
+            }
+
+            .middle-content-desite {
+                margin-top: 25px;
+                margin-left: 40px;
+            }
+
+            .middle-part {
+                background-size: 80px;
+            }
+
+            /*experience area start*/
+            .left-part {
+                margin-bottom: 35px;
+            }
+
+            .experience {
+
+                padding: 80px 80px 40px 80px;
+                background-size: 70px;
+            }
+        }
+
+
+        /* Medium devices (tablets, 768px and up)*/
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .my-content {
+                padding-top: 43PX;
+                padding-left: 90px;
+            }
+
+            .my-content h1 {
+                font-size: 48px;
+                margin-bottom: 4px;
+            }
+
+            .my-content h2 {
+                font-size: 29px;
+            }
+
+            .my-content h4 {
+                font-weight: normal;
+                font-size: 22px;
+            }
+
+            .btn-custom {
+                margin-top: 10px;
+            }
+
+            .main-img img {
+                width: 600px;
+                padding: 60px 60px 50px 50px;
+            }
+
+            /*middle area start*/
+            .image-area img {
+                width: 400px;
+            }
+
+            .middle-content-desite {
+                margin-top: 22px;
+                margin-left: 40px;
+            }
+
+            /*experience area start*/
+            .left-part {
+                margin-bottom: 35px;
+            }
+
+            .experience {
+
+                padding: 80px 80px 50px 80px;
+                background-size: 70px;
+            }
+        }
+
+
+
+        /* Large devices (desktops, 992px and up)*/
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+
+            /*header area start*/
+            .header-part {
+                padding-top: 15px;
+            }
+
+            .my-content h1 {
+                font-size: 43px;
+                margin-bottom: 5px;
+            }
+
+            .my-content h2 {
+                font-size: 27px;
+                margin-top: 0px;
+            }
+
+            h4,
+            h4 {
+                font-size: 20PX;
+                font-weight: 500;
+            }
+
+            .my-content {
+                padding-left: 40px;
+            }
+
+            .text-right {
+                padding-right: 40px;
+            }
+
+            .my-content p {
+                font-size: 14px;
+            }
+
+            /*header area end*/
+            /*middle area start*/
+            .middle-content-desite p {
+                width: 78%;
+                font-size: 14px;
+            }
+
+            .middle-part .image-area {
+                padding-top: 20px;
+            }
+
+            .middle-content-desite h2 {
+                font-size: 35px;
+                padding-bottom: 1px;
+            }
+
+            .middle-content-desite h4 {
+                font-size: 21px;
+                padding-bottom: 3px;
+            }
+
+            /*middle area end*/
+            /*experience area start*/
+            .experience {
+                padding: 90px 80px 60px 90px;
+
+            }
+
+            .left-part h2 {
+                font-size: 23px;
+            }
+
+            .left-part p {
+                width: 93%;
+                font-size: 14px;
+            }
+
+            .right-part h2 {
+                font-size: 23px;
+            }
+
+            .right-part p {
+                width: 93%;
+                font-size: 14px;
+            }
+
+            /*experience area end*/
+            /*footer area start*/
+            .footer h2 {
+                margin-bottom: 0px;
+
+            }
+
+            .footer h2 {
+                padding-bottom: 0px;
+            }
+
+            /*footer area end*/
+        }
+
+        /* Extra large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+            .my-content {
+                padding-left: 20px;
+
+            }
+
+            .text-right {
+                padding-right: 20px;
+            }
+
+            .middle-content-desite p {
+                width: 81%;
+            }
+
+            .experience {
+                padding: 80px 80px 50px 90px;
+            }
+        }

@@ -158,6 +158,7 @@ html {
     margin: 0;
     padding-bottom: 10px;
     font-size: 25px;
+    margin-left: 10px;
 }
 
 .left-part h3 {
@@ -165,12 +166,14 @@ html {
     color: #ffa500;
     margin: 0;
     padding-bottom: 5px;
+    margin-left: 10px;
 }
 
 .left-part p {
     width: 90%;
     text-align: justify;
     color: #353636;
+    margin-left: 10px;
 }
 
 .right-part {
@@ -182,6 +185,7 @@ html {
     margin: 0;
     padding-bottom: 10px;
     font-size: 25px;
+    margin-left: 10px;
 }
 
 .right-part h3 {
@@ -189,12 +193,14 @@ html {
     color: #ffa500;
     margin: 0;
     padding-bottom: 5px;
+    margin-left: 10px;
 }
 
 .right-part p {
     width: 90%;
     text-align: justify;
     color: #353636;
+    margin-left: 10px;
 }
 
 #left-border {
